@@ -1,7 +1,8 @@
 buildscript {
     ext {
         versions = [
-                support: '27.0.2'
+                support: '1.1.0',
+                material: '1.0.0'
         ]
     }
     repositories {
@@ -10,7 +11,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.5.4'
     }
 }
 
